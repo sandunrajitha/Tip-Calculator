@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D69CFCC52AE6601400CA4B19 /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69CFCC42AE6601400CA4B19 /* AmountView.swift */; };
 		D6F49F3E2ADE582500046E10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F49F3D2ADE582500046E10 /* AppDelegate.swift */; };
 		D6F49F402ADE582500046E10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F49F3F2ADE582500046E10 /* SceneDelegate.swift */; };
 		D6F49F422ADE582500046E10 /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F49F412ADE582500046E10 /* CalculatorVC.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D69CFCC42AE6601400CA4B19 /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 		D6F49F3A2ADE582500046E10 /* tip-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tip-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F49F3D2ADE582500046E10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6F49F3F2ADE582500046E10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				D6F49F822ADF830C00046E10 /* BillInputView.swift */,
 				D6F49F842ADF831600046E10 /* TipInputView.swift */,
 				D6F49F862ADF831E00046E10 /* SplitInputView.swift */,
+				D69CFCC42AE6601400CA4B19 /* AmountView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D69CFCC52AE6601400CA4B19 /* AmountView.swift in Sources */,
 				D6F49F422ADE582500046E10 /* CalculatorVC.swift in Sources */,
 				D6F49F7F2ADF82F400046E10 /* LogoView.swift in Sources */,
 				D6F49F8A2AE0DE3600046E10 /* ThemeColor.swift in Sources */,
