@@ -29,6 +29,7 @@
 		D6F49F8C2AE0DE4400046E10 /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F49F8B2AE0DE4400046E10 /* ThemeFont.swift */; };
 		D6F49F922AE0DF9900046E10 /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F49F912AE0DF9900046E10 /* UIColor+extension.swift */; };
 		D6F49F952AE0F82400046E10 /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F49F942AE0F82400046E10 /* LabelFactory.swift */; };
+		D6F49F982AE277AC00046E10 /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F49F972AE277AC00046E10 /* UIView+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		D6F49F8B2AE0DE4400046E10 /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
 		D6F49F912AE0DF9900046E10 /* UIColor+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
 		D6F49F942AE0F82400046E10 /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
+		D6F49F972AE277AC00046E10 /* UIView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				D6F49F912AE0DF9900046E10 /* UIColor+extension.swift */,
+				D6F49F972AE277AC00046E10 /* UIView+extension.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 				D6F49F7F2ADF82F400046E10 /* LogoView.swift in Sources */,
 				D6F49F8A2AE0DE3600046E10 /* ThemeColor.swift in Sources */,
 				D6F49F832ADF830C00046E10 /* BillInputView.swift in Sources */,
+				D6F49F982AE277AC00046E10 /* UIView+extension.swift in Sources */,
 				D6F49F812ADF830300046E10 /* ResultView.swift in Sources */,
 				D6F49F3E2ADE582500046E10 /* AppDelegate.swift in Sources */,
 				D6F49F8C2AE0DE4400046E10 /* ThemeFont.swift in Sources */,
