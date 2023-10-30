@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D69CFCC52AE6601400CA4B19 /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69CFCC42AE6601400CA4B19 /* AmountView.swift */; };
 		D69CFCC72AEA3E2C00CA4B19 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69CFCC62AEA3E2C00CA4B19 /* HeaderView.swift */; };
+		D6E14C832AEF57E0001B1360 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E14C822AEF57E0001B1360 /* Tip.swift */; };
 		D6F49F3E2ADE582500046E10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F49F3D2ADE582500046E10 /* AppDelegate.swift */; };
 		D6F49F402ADE582500046E10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F49F3F2ADE582500046E10 /* SceneDelegate.swift */; };
 		D6F49F422ADE582500046E10 /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F49F412ADE582500046E10 /* CalculatorVC.swift */; };
@@ -54,6 +55,7 @@
 /* Begin PBXFileReference section */
 		D69CFCC42AE6601400CA4B19 /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 		D69CFCC62AEA3E2C00CA4B19 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		D6E14C822AEF57E0001B1360 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 		D6F49F3A2ADE582500046E10 /* tip-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tip-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F49F3D2ADE582500046E10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6F49F3F2ADE582500046E10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D6E14C812AEF57D4001B1360 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D6E14C822AEF57E0001B1360 /* Tip.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		D6F49F312ADE582500046E10 = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +142,7 @@
 		D6F49F3C2ADE582500046E10 /* tip-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				D6E14C812AEF57D4001B1360 /* model */,
 				D6F49F932AE0F81A00046E10 /* factory */,
 				D6F49F902AE0DF8300046E10 /* extension */,
 				D6F49F882AE0DE1B00046E10 /* config */,
@@ -379,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D69CFCC52AE6601400CA4B19 /* AmountView.swift in Sources */,
+				D6E14C832AEF57E0001B1360 /* Tip.swift in Sources */,
 				D6F49F422ADE582500046E10 /* CalculatorVC.swift in Sources */,
 				D6F49F7F2ADF82F400046E10 /* LogoView.swift in Sources */,
 				D6F49F8A2AE0DE3600046E10 /* ThemeColor.swift in Sources */,
