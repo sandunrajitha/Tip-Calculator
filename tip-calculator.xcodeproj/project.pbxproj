@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D603AE1B2AF89FDC0032CD9E /* UIResponder+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D603AE1A2AF89FDC0032CD9E /* UIResponder+extension.swift */; };
+		D62FF76B2AFCC1600096F336 /* Int+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62FF76A2AFCC1600096F336 /* Int+extension.swift */; };
 		D69CFCC52AE6601400CA4B19 /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69CFCC42AE6601400CA4B19 /* AmountView.swift */; };
 		D69CFCC72AEA3E2C00CA4B19 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69CFCC62AEA3E2C00CA4B19 /* HeaderView.swift */; };
 		D6E14C832AEF57E0001B1360 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E14C822AEF57E0001B1360 /* Tip.swift */; };
@@ -58,6 +59,7 @@
 
 /* Begin PBXFileReference section */
 		D603AE1A2AF89FDC0032CD9E /* UIResponder+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+extension.swift"; sourceTree = "<group>"; };
+		D62FF76A2AFCC1600096F336 /* Int+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+extension.swift"; sourceTree = "<group>"; };
 		D69CFCC42AE6601400CA4B19 /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 		D69CFCC62AEA3E2C00CA4B19 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		D6E14C822AEF57E0001B1360 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
@@ -221,6 +223,7 @@
 				D6F49F972AE277AC00046E10 /* UIView+extension.swift */,
 				D6FCA4AD2AF35AA900DF3248 /* String+extension.swift */,
 				D603AE1A2AF89FDC0032CD9E /* UIResponder+extension.swift */,
+				D62FF76A2AFCC1600096F336 /* Int+extension.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -414,6 +417,7 @@
 				D603AE1B2AF89FDC0032CD9E /* UIResponder+extension.swift in Sources */,
 				D69CFCC52AE6601400CA4B19 /* AmountView.swift in Sources */,
 				D6E14C832AEF57E0001B1360 /* Tip.swift in Sources */,
+				D62FF76B2AFCC1600096F336 /* Int+extension.swift in Sources */,
 				D6F49F422ADE582500046E10 /* CalculatorVC.swift in Sources */,
 				D6F49F7F2ADF82F400046E10 /* LogoView.swift in Sources */,
 				D6F49F8A2AE0DE3600046E10 /* ThemeColor.swift in Sources */,
