@@ -64,22 +64,23 @@ class CalculatorVC: UIViewController {
         let input = CalculatorVM.Input(
             billPublisher: billInputView.valuePublisher,
             tipPublisher: tipInputView.valuePublisher,
-            splitPublisher: splitInputView.valuePublisher)
+            splitPublisher: splitInputView.valuePublisher,
+            logoViewTapPublisher: logoViewTapPublisher)
 
         let output = vm.transform(input: input)
 
         output.updateViewPublisher.sink { [unowned self] result in
             resultView.configure(result: result)
         }.store(in: &cancellables)
+
+        output.resetCalculatorPublisher.sink { _ in
+            print("reset calculator")
+        }.store(in: &cancellables)
     }
 
     private func observe() {
-        viewTapPublisher.sink { [unowned self] value in
+        viewTapPublisher.sink { [unowned self] _ in
             view.endEditing(true)
-        }.store(in: &cancellables)
-
-        logoViewTapPublisher.sink { _ in
-            print("logo view tapped")
         }.store(in: &cancellables)
     }
 
